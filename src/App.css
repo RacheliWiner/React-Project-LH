@@ -1,0 +1,35 @@
+#wraper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+}
+
+body{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.mytxt{
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  line-height: 2vw;
+  word-spacing: 2px;
+  text-align: justify;
+  margin: 3vw;
+}
+
+#navigate {
+  display: flex;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
